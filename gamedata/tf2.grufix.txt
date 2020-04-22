@@ -1,0 +1,14 @@
+"Games"
+{
+	"tf"
+	{
+		"Offsets"
+		{
+			"CTFPlayer.m_dLastAbsoluteFrameTime"
+			{
+				"windows" "9272"
+				"linux" "9276"
+			}
+		}
+	}
+}
