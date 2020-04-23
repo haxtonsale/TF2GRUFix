@@ -31,7 +31,7 @@ public Action Timer_CheckAbsFrameTimes(Handle timer)
 			current[0] = LoadFromAddress(entaddr+view_as<Address>(g_Offset+4), NumberType_Int32);
 			current[1] = LoadFromAddress(entaddr+view_as<Address>(g_Offset), NumberType_Int32);
 			
-			// Check if CTFPlayer.m_dLastAbsoluteFrameTime is equal to -1.0
+			// Check if CTFPlayer.m_dLastAbsoluteFrameTime is not equal to -1.0
 			if (current[0] != 0xBFF00000 && current[1] != 0x00000000)
 			{
 				// Check if CTFPlayer.m_dLastAbsoluteFrameTime is equal to the value it had 1 second ago
